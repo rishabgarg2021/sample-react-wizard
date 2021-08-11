@@ -1,0 +1,63 @@
+import React, { Component } from "react";
+import Select from "react-select";
+import {
+  addons as allAddons,
+  quantities as allQuantities
+} from "../../data.json";
+
+class AddonRow extends Component {
+  render() {
+    const type = this.props.type;
+    const id = this.props.id;
+    const addonsForType = allAddons[type];
+    return (
+      <div className={`addon-row row row-${id}`}>
+        <div className="addon-row__amount col-sm">
+          <Select
+            classNamePrefix="app-select"
+            options={allQuantities}
+            value={this.props.selectedQuantity}
+            onChange={this.props.onSelectQuantity(type, id)}
+            placeholder={"Select Quantity"}
+          />
+        </div>
+        <div className="addon-row__of col-sm-auto p-0">of</div>
+        <div className="addon-row__type col-sm">
+          <Select
+            classNamePrefix="app-select"
+            options={addonsForType}
+            onChange={this.props.onSelectAddon(type, id)}
+            value={this.props.selectedAddon}
+            placeholder={`Choose a ${type && type.slice(0, -1)}`}
+          />
+        </div>
+        <div className="addon-row__remove col-sm-auto">
+          <button
+            onClick={() => this.props.removeAddonRow(type, id)}
+            className="button button-remove--addonrow"
+          >
+            <svg
+              width="12px"
+              height="12px"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+            >
+              <g id="Close">
+                <path
+                  fill="#cdcdcd"
+                  d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88
+		c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242
+		C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879
+		s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z"
+                />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default AddonRow;

@@ -1,0 +1,78 @@
+button,
+.button {
+  @include transition();
+  display: inline-block;
+  padding: 16px 28px;
+  font-size: 17px;
+  text-decoration: none;
+  color: $color--white;
+  border-radius: $radius--md;
+  border: 1px solid $color--brand--primary;
+  background-color: $color--brand--primary;
+  font-family: inherit;
+  &.disabled,
+  &:disabled {
+    cursor: not-allowed;
+    color: $color--text--disabled;
+    border-color: $color--bg--disabled;
+    background-color: $color--bg--disabled;
+  }
+}
+
+.button--outline {
+  @include transition();
+  display: block;
+  padding: 16px 28px;
+  font-weight: $weight--sans--bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: $spacing--wide;
+  color: $color--brand--primary;
+  border-radius: $radius--md;
+  border: 1px solid $color--brand--primary;
+  background-color: transparent;
+  &--gray {
+    border-color: $color--gray--light;
+    color: $color--gray--light;
+  }
+}
+
+.button--add {
+  position: relative;
+  padding-right: 42px;
+  text-align: left;
+  width: 100%;
+  &:after {
+    content: "+";
+    position: absolute;
+    right: 22px;
+  }
+}
+
+// Text-only buttons
+.text-button {
+  padding: 12px 22px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: $spacing--wide;
+  text-decoration: none;
+  background: transparent !important;
+  border-color: transparent !important;
+  color: $color--brand--primary;
+  &.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: $color--text--disabled;
+  }
+  &:not(.disabled):hover {
+    border-color: $color--brand--primary !important;
+  }
+}
+
+.btn-add--row {
+  background-color: transparent;
+  border: none;
+  color: $color--text--light;
+  padding: 10px 0;
+}

@@ -1,0 +1,347 @@
+{
+  "products": [
+    {
+      "id": "peanut",
+      "title": "PB & Jelly Get in My Belly",
+      "img": "/images/mixes/mix-peanut.png",
+      "shop_url": "https://proteinbarmix.com/products/protein-bar-mix",
+      "standard_servings": 8,
+      "stats": {
+        "cals": 1280,
+        "fats": 64,
+        "carbs": 112,
+        "fiber": 40,
+        "sugar": 40,
+        "protein": 96
+      }
+    },
+    {
+      "id": "peas",
+      "title": "Peas, Love, & Cocoa",
+      "img": "/images/mixes/mix-peas.png",
+      "shop_url": "https://proteinbarmix.com/products/vegan-protein-bar-mix-peas-love-chocolate",
+      "standard_servings": 8,
+      "stats": {
+        "cals": 1360,
+        "fats": 88,
+        "carbs": 88,
+        "fiber": 48,
+        "sugar": 16,
+        "protein": 96
+      }
+    },
+    {
+      "id": "whey",
+      "title": "Whey Hip Chocolate Chip",
+      "img": "/images/mixes/mix-whey.png",
+      "shop_url": "https://proteinbarmix.com/products/primal-protein-bar-mix-whey-hip-chocolate-chip",
+      "standard_servings": 8,
+      "stats": {
+        "cals": 1440,
+        "fats": 88,
+        "carbs": 72,
+        "fiber": 32,
+        "sugar": 24,
+        "protein": 112
+      }
+    },
+    {
+      "id": "cocoa",
+      "title": "Cocoa for Coconuts",
+      "img": "/images/mixes/mix-cocoa.png",
+      "shop_url": "https://proteinbarmix.com//products/paleo-energy-bites-mix-cocoa-for-coconuts",
+      "standard_servings": 12,
+      "stats": {
+        "cals": 960,
+        "fats": 72,
+        "carbs": 60,
+        "fiber": 36,
+        "sugar": 12,
+        "protein": 84
+      }
+    },
+    {
+      "id": "oat",
+      "title": "Oat Yes! Chocolate Chip",
+      "img": "/images/mixes/mix-oat.png",
+      "shop_url": "https://proteinbarmix.com/products/oats-energy-bar-mix-oat-yeah-chocolate-chip",
+      "standard_servings": 12,
+      "stats": {
+        "cals": 1320,
+        "fats": 84,
+        "carbs": 144,
+        "fiber": 36,
+        "sugar": 24,
+        "protein": 72
+      }
+    }
+  ],
+  "addons": {
+    "liquids": [
+      {
+        "label": "water",
+        "value": "water",
+        "cals": 0,
+        "fats": 0,
+        "carbs": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "protein": 0
+      },
+      {
+        "label": "almond milk",
+        "value": "almond milk",
+        "cals": 110,
+        "fats": 9,
+        "carbs": 3,
+        "fiber": 2,
+        "sugar": 1,
+        "protein": 5
+      },
+      {
+        "label": "whole milk",
+        "value": "whole milk",
+        "cals": 160,
+        "fats": 9,
+        "carbs": 12,
+        "fiber": 0,
+        "sugar": 11,
+        "protein": 8
+      },
+      {
+        "label": "mashed bananas",
+        "value": "mashed bananas",
+        "cals": 200,
+        "fats": 0.75,
+        "carbs": 50,
+        "fiber": 6,
+        "sugar": 27,
+        "protein": 3
+      },
+      {
+        "label": "apple juice",
+        "value": "apple juice",
+        "cals": 101,
+        "fats": 0,
+        "carbs": 22,
+        "fiber": 0,
+        "sugar": 21,
+        "protein": 1
+      },
+      {
+        "label": "greek yogurt",
+        "value": "greek yogurt",
+        "cals": 220,
+        "fats": 12,
+        "carbs": 9,
+        "fiber": 1,
+        "sugar": 7,
+        "protein": 20
+      },
+      {
+        "label": "low-fat yogurt",
+        "value": "low-fat yogurt",
+        "cals": 154,
+        "fats": 3.8,
+        "carbs": 17,
+        "fiber": 0,
+        "sugar": 17,
+        "protein": 13
+      }
+    ],
+    "fats": [
+      {
+        "label": "almond butter",
+        "value": "almond butter",
+        "cals": 1521,
+        "fats": 144,
+        "carbs": 48,
+        "fiber": 24,
+        "sugar": 8,
+        "protein": 56
+      },
+      {
+        "label": "peanut butter",
+        "value": "peanut butter",
+        "cals": 1680,
+        "fats": 128,
+        "carbs": 48,
+        "fiber": 16,
+        "sugar": 16,
+        "protein": 72
+      },
+      {
+        "label": "sunflower butter",
+        "value": "sunflower butter",
+        "cals": 1761,
+        "fats": 160,
+        "carbs": 40,
+        "fiber": 16,
+        "sugar": 8,
+        "protein": 56
+      },
+      {
+        "label": "sweetened nut butter",
+        "value": "sweetened nut butter",
+        "cals": 1439,
+        "fats": 112,
+        "carbs": 64,
+        "fiber": 24,
+        "sugar": 32,
+        "protein": 48
+      },
+      {
+        "label": "coconut oil",
+        "value": "coconut oil",
+        "cals": 1945,
+        "fats": 216,
+        "carbs": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "protein": 0
+      },
+      {
+        "label": "coconut butter",
+        "value": "coconut butter",
+        "cals": 1761,
+        "fats": 160,
+        "carbs": 64,
+        "fiber": 32,
+        "sugar": 16,
+        "protein": 16
+      },
+      {
+        "label": "ghee",
+        "value": "ghee",
+        "cals": 2160,
+        "fats": 240,
+        "carbs": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "protein": 0
+      },
+      {
+        "label": "grass-fed butter",
+        "value": "grass-fed butter",
+        "cals": 1600,
+        "fats": 176,
+        "carbs": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "protein": 0
+      }
+    ],
+    "sweeteners": [
+      {
+        "label": "agave",
+        "value": "agave",
+        "cals": 960,
+        "fats": 1,
+        "carbs": 256,
+        "fiber": 0,
+        "sugar": 256,
+        "protein": 0
+      },
+      {
+        "label": "honey",
+        "value": "honey",
+        "cals": 980,
+        "fats": 0,
+        "carbs": 279,
+        "fiber": 1,
+        "sugar": 278,
+        "protein": 1
+      },
+      {
+        "label": "maple",
+        "value": "maple",
+        "cals": 800,
+        "fats": 0,
+        "carbs": 192,
+        "fiber": 0,
+        "sugar": 192,
+        "protein": 0
+      },
+      {
+        "label": "mashed bananas",
+        "value": "mashed bananas",
+        "cals": 200,
+        "fats": 0.75,
+        "carbs": 50,
+        "fiber": 6,
+        "sugar": 27,
+        "protein": 3
+      },
+      {
+        "label": "coconut nectar",
+        "value": "coconut nectar",
+        "cals": 881,
+        "fats": 0,
+        "carbs": 208,
+        "fiber": 0,
+        "sugar": 208,
+        "protein": 0
+      },
+      {
+        "label": "date syrup",
+        "value": "date syrup",
+        "cals": 864,
+        "fats": 0,
+        "carbs": 224,
+        "fiber": 0,
+        "sugar": 208,
+        "protein": 0
+      },
+      {
+        "label": "molasses",
+        "value": "molasses",
+        "cals": 977,
+        "fats": 0,
+        "carbs": 252,
+        "fiber": 0,
+        "sugar": 252,
+        "protein": 0
+      },
+      {
+        "label": "sugar-free syrup",
+        "value": "sugar-free syrup",
+        "cals": 120,
+        "fats": 0,
+        "carbs": 72,
+        "fiber": 24,
+        "sugar": 0,
+        "protein": 0
+      }
+    ]
+  },
+  "quantities": [
+    {
+      "label": "1 cup",
+      "value": 1
+    },
+    {
+      "label": "3/4 cup",
+      "value": 0.75
+    },
+    {
+      "label": "2/3 cup",
+      "value": 0.6666666667
+    },
+    {
+      "label": "1/2 cup",
+      "value": 0.5
+    },
+    {
+      "label": "1/3 cup",
+      "value": 0.3333333333
+    },
+    {
+      "label": "1/4 cup",
+      "value": 0.25
+    },
+    {
+      "label": "2 tbsp.",
+      "value": 0.125
+    }
+  ]
+}

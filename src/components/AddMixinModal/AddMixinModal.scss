@@ -1,0 +1,129 @@
+@import "../../assets/style/base/vars";
+@import "../../assets/style/base/utils-media";
+
+.app-modal {
+  font-family: $family--sans;
+
+  .button {
+    font: inherit;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: inherit;
+  }
+
+  .button--add-mixin {
+    margin-bottom: 18px;
+
+    @include breakpoint(sm) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.app-modal--header {
+  position: relative;
+}
+.app-modal--img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  display: none;
+
+  @include breakpoint(xs) {
+    display: block;
+  }
+}
+
+.app-modal--title {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.app-modal--footer {
+  margin-top: 30px;
+}
+
+.app-modal--body {
+  > .row {
+    + .row {
+      margin-top: 10px;
+    }
+  }
+}
+
+.addon-row {
+  align-items: top;
+
+  @include breakpoint(xs) {
+    align-items: center;
+  }
+}
+
+.addon-row__amount {
+  margin-bottom: 18px;
+
+  @include breakpoint(xs) {
+    margin-bottom: 0;
+  }
+}
+
+.addon-row__of {
+  display: none;
+
+  @include breakpoint(xs) {
+    display: block;
+  }
+}
+
+.addon-row__remove {
+  margin-bottom: 6px;
+  text-align: right;
+  color: $color--text--lighter;
+
+  &:after {
+    content: 'Remove';
+
+    @include breakpoint(xs) {
+      display: none;
+    }
+  }
+
+  @include breakpoint(xs) {
+    margin-bottom: 0;
+    text-align: inherit;
+  }
+}
+
+.button-remove--addonrow {
+  background: transparent;
+  color: $color--text--light;
+  border: none;
+  padding: 10px;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  margin-top: 100px;
+  transition: margin 270ms ease-in-out;
+}
+
+.ReactModal__Content--after-open {
+  margin-top: 0;
+}
+
+.ReactModal__Content--before-close {
+  margin-top: 100px;
+}
